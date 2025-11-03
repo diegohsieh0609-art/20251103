@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <header class="topbar">
+      <h1>互動式測驗（p5.js）</h1>
+      <a class="download-csv" href="questions.csv" download>下載題庫（CSV）</a>
+    </header>
+
+    <main>
+      <div id="canvas-container"></div>
+      <div id="hud">
+        <div id="status"></div>
+        <div id="opts"></div>
+        <div id="controls"></div>
+      </div>
+    </main>
+
+    <script src="sketch.js"></script>
+  </body>
+</html>

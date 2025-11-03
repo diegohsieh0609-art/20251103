@@ -1,0 +1,7 @@
+question,optionA,optionB,optionC,optionD,answer
+"p5.js中,哪個函數在程式開始時只運行一次?","setup()","draw()","preload()","mousePressed()","A"
+"哪個函數會不斷重複執行,用於繪製畫面?","setup()","draw()","preload()","mouseClicked()","B"
+"用於載入外部檔案(如圖片或CSV)的函數是?","createCanvas()","background()","preload()","fill()","C"
+"設定畫布大小的函數是?","setSize()","canvas()","createCanvas()","window()","C"
+"改變圖形填充顏色的函數是?","fill()","stroke()","rect()","color()","A"
+"p5.js的畫布原點(0,0)在哪個位置?","左上角","右下角","中心","左下角","A"
